@@ -54,6 +54,7 @@
     "html-webpack-plugin": "^5.5.0",
     "less-loader": "^10.2.0",
     "mini-css-extract-plugin": "^2.4.5",
+    "os-browserify": "^0.3.0",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",
     "react-hot-loader": "^4.13.0",
@@ -114,6 +115,9 @@
       "output": "./package"
     },
     "extends": null
+  },
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
   },
   "postinstall": "electron-builder install-app-deps"
 }

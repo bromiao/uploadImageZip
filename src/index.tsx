@@ -1,8 +1,6 @@
-import styles from './index.module.less';
-import Nav from './components/layout/Nav/index';
-import TitleBar from './components/layout/TitleBar/index';
-import FileUploader from './components/FileUploader';
-import { hot } from 'react-hot-loader/root';
+import { hot } from 'react-hot-loader/root'
+import FileUploader from './components/FileUploader'
+import styles from './index.module.less'
 const app = () => {
   return (
     <div className={styles.app}>
@@ -10,6 +8,6 @@ const app = () => {
         <FileUploader />
       </div>
     </div>
-  );
-};
-export default hot(app);
+  )
+}
+export default hot(app)

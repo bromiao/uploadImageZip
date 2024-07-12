@@ -46,3 +46,8 @@ electron16 + react17 + webpack5
 - `npm run pack`: 构建生产环境调试文件
 - `npm run dev:win64`: 构建生产 windows64 环境包
 - `npm run dev:macArm`: 构建生产 mac --arm 环境包
+
+
+### 原仓库
+
+`https://github.com/1169938246/uploadImageZip.git`
